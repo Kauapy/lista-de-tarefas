@@ -2,7 +2,6 @@ body {
     margin: 0;
     background-color: rgb(231, 230, 220);
   }
-  
   .app {
     display: flex;
     align-items: center;
@@ -160,5 +159,43 @@ body {
     text-decoration: line-through;
   }
   
+  .done p{
+    text-decoration: line-through;
+    text-decoration-thickness: 1px; 
+    color: #f6f1d194;
+  }
+  
+  .botao-concluir {
+    border: 1px;
+    background: #F6F1D1;
+    cursor: pointer;
+    margin-left: 0.75rem;
+    width: 80px;
+    height: 20px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+
+  .botao-concluir:hover {
+    color: #F6F1D1;
+    background: rgba(246, 241, 209, 0.1);
+  }
+
+
+  .botao-deletar{
+    border: 1px;
+    background: #F6F1D1;
+    cursor: pointer;
+    margin-left: 0.75rem;
+    width: 80px;
+    height: 20px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+
+  .botao-deletar:hover {
+    color: #F6F1D1;
+    background: rgba(246, 241, 209, 0.1);
+  }
   /*# sourceMappingURL=style.css.map */
   
